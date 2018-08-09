@@ -1,0 +1,11 @@
+{
+  "name": "ppilates2018",
+  "version": "1.0.0",
+  "description": "Personal Pilates website",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "font-awesome": "^4.7.0"
+  }
+}
