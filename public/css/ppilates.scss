@@ -1,6 +1,16 @@
 
-@import './ppilates_color_palette.scss';
-$warning: $color2;
+//@import './ppilates_color_palette.scss';
+//$warning: $color2;
+
+// Colores de Personal Pilates - Nuro
+$amarillonuro: #f8bd00;
+$marronnuro: #362d1f;
+
+// Update some of Bulma's component variables
+$body-background-color: $amarillonuro;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
 
 /* Define custom CSS variables above this point */
 @import '../../vendors/bulma/bulma.sass';
