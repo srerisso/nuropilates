@@ -1,4 +1,4 @@
-# NURO 2020
+# Personal Pilates / NURO 2020
 
 En este proyecto 2018 se acumulan pruebas e ideas para NURO 2020.
 
@@ -18,5 +18,7 @@ Con la línea de comandos, utilizando Sass.
 sass --sourcemap=none css/ppilates.scss:css/ppilates.css --watch
 
 ```
+
+sass css/ppilates.scss:css/ppilates.css --watch
 
 2- Esquema de páginas.
