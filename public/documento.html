@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Pilates / NURO</title>
+    <link rel="stylesheet" href="css/ppilates.css">
+    <!-- <link rel="stylesheet" href="../vendors/bulma/css/bulma.css">
+    <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css"> -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <img src="images/Nuro_1_logo_200h.jpg" alt="Nuro logo">
+<br>
+      <h1>Gracias {{$nombre}} !</h1>
+      <p>Bienvenido al Grupo <b>{{$grupo}}</b> </p>
+
+      <p>Tu horario es :</p>
+      <table>
+        <tr>
+          <td>{{$daygrupo a las $timegrupo}}</td>
+        </tr>
+      </table>
+    </div>
+
+  </body>
+</html>
