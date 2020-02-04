@@ -239,7 +239,7 @@ th {
   text-align: left; }
 
 html {
-  background-color: #f8bd00;
+  background-color: white;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -6341,3 +6341,6 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.has-background-nuro {
+  background-color: #f8bd00; }

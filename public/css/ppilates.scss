@@ -7,10 +7,14 @@ $amarillonuro: #f8bd00;
 $marronnuro: #362d1f;
 
 // Update some of Bulma's component variables
-$body-background-color: $amarillonuro;
+// $body-background-color: $amarillonuro;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
 /* Define custom CSS variables above this point */
 @import '../../vendors/bulma/bulma.sass';
+
+.has-background-nuro {
+  background-color: $amarillonuro;
+}
